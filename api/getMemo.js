@@ -1,6 +1,10 @@
 import { beginCell } from "@ton/core";
 
 export default function handler(req, res) {
+    res.setHeader("Access-Control-Allow-Origin", "*");
+    res.setHeader("Access-Control-Allow-Methods", "GET, OPTIONS");
+    res.setHeader("Access-Control-Allow-Headers", "Content-Type");
+
     const { comment } = req.query;
 
     if (!comment) {
