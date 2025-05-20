@@ -16,7 +16,7 @@ export default async function handler(req, res) {
     const inlineQueryResult = {
         id: '1',
         parse_mode: 'HTML',
-        caption: '🐏 <b>Legendary game in telegram - PLAY AND EARN TON</b> 🕹️',
+        caption: '🪐 A unique space game where you can start <b>earning TON right now!</b> 💎\n\n👉 Join using the <b>button below:</b>',
         type: 'photo',
         photo_url: 'https://www.api-dev.dev/refferalimg.jpg',
         thumbnail_url: 'https://www.api-dev.dev/refferalimg.jpg',
@@ -24,8 +24,8 @@ export default async function handler(req, res) {
             inline_keyboard: [
                 [
                     {
-                        text: '▶️ Play Now',
-                        url: `https://t.me/SvenTon_bot?start=${userId}`,
+                        text: '💎 Earn TON!',
+                        url: `https://t.me/CivilizationTon_bot/app?startapp=${userId}`,
                     },
                 ],
             ],
