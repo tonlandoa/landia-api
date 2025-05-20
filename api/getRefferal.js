@@ -18,8 +18,8 @@ export default async function handler(req, res) {
         parse_mode: 'HTML',
         caption: '🐏 <b>Legendary game in telegram - PLAY AND EARN TON</b> 🕹️',
         type: 'photo',
-        photo_url: 'https://bot.sven-ton.com/img/playnow.jpg',
-        thumbnail_url: 'https://bot.sven-ton.com/img/playnow.jpg',
+        photo_url: '/refferalimg.jpg',
+        thumbnail_url: '/refferalimg.jpg',
         reply_markup: {
             inline_keyboard: [
                 [
