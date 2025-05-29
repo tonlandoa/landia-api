@@ -18,14 +18,14 @@ export default async function handler(req, res) {
         parse_mode: 'HTML',
         caption: '🪐 TonLandia App — Play and Earn TON 💎!</b> 💎\n\n‼️ Join now and start earning TON:',
         type: 'photo',
-        photo_url: 'https://www.api-dev.dev/refferalimg.jpg',
-        thumbnail_url: 'https://www.api-dev.dev/refferalimg.jpg',
+        photo_url: 'https://landia-api.vercel.app/refimg.jpg',
+        thumbnail_url: 'https://landia-api.vercel.app/refimg.jpg',
         reply_markup: {
             inline_keyboard: [
                 [
                     {
-                        text: '💎 Earn TON!',
-                        url: `https://t.me/CivilizationTon_bot/app?startapp=${userId}`,
+                        text: '🐸 Play And Meme',
+                        url: `https://t.me/TONlandiaBot/game?startapp=${userId}`,
                     },
                 ],
             ],
