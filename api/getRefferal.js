@@ -16,7 +16,7 @@ export default async function handler(req, res) {
     const inlineQueryResult = {
         id: '1',
         parse_mode: 'HTML',
-        caption: '🪐 A unique space game where you can start <b>earning TON right now!</b> 💎\n\n👉 Join using the <b>button below:</b>',
+        caption: '🪐 TonLandia App — Play and Earn TON 💎!</b> 💎\n\n‼️ Join now and start earning TON:',
         type: 'photo',
         photo_url: 'https://www.api-dev.dev/refferalimg.jpg',
         thumbnail_url: 'https://www.api-dev.dev/refferalimg.jpg',
