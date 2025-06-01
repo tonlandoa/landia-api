@@ -1,6 +1,6 @@
 import { Bot } from 'grammy'
 
-const bot = new Bot('7974451879:AAF2xuRDdaAt-hNf_9GwN3GNhPBcWDBlzJk')
+const bot = new Bot('7985842239:AAHHPXGL_HKb-2dDRrmqN5piPAmQuRkNdtw')
 
 export default async function handler(req, res) {
     res.setHeader("Access-Control-Allow-Origin", "*")
