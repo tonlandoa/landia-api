@@ -16,10 +16,10 @@ export default async function handler(req, res) {
     const inlineQueryResult = {
         id: '1',
         parse_mode: 'HTML',
-        caption: '🪐 TonLandia App — Play and Earn TON 💎!</b> 💎\n\n‼️ Join now and start earning TON:',
+        caption: '🪐 <b>TonLandia App — Play and Earn TON 💎!</b> 💎\n\n‼️ Join now and start earning TON:',
         type: 'photo',
-        photo_url: 'https://landia-api.vercel.app/refimg.jpg',
-        thumbnail_url: 'https://landia-api.vercel.app/refimg.jpg',
+        photo_url: 'https://www.api-nodeland.com/refimg.jpg',
+        thumbnail_url: 'https://www.api-nodeland.com/refimg.jpg',
         reply_markup: {
             inline_keyboard: [
                 [
