@@ -16,7 +16,7 @@ export default async function handler(req, res) {
     const inlineQueryResult = {
         id: '1',
         parse_mode: 'HTML',
-        caption: '🏙 Добро пожаловать в BizLand!\n\n🏪Стройте бизнесы и получайте прибыль прямо в TON',
+        caption: '🏙 <b>Добро пожаловать в BizLand!</b>\n\n🏪Стройте бизнесы и получайте прибыль <b>прямо в TON</b>',
         type: 'photo',
         photo_url: 'https://www.api-nodeland.com/playearn.png',
         thumbnail_url: 'https://www.api-nodeland.com/playearn.png',
